@@ -31,3 +31,24 @@ main()
 	}
 	return 0;
 }
+//Similarly for 'a' to 'z' (small letters ranges from 97 to 122 in ASCII Table)
+#include<stdio.h>
+main()
+{
+	int x;
+	for(x=97;x<=122;x++)
+	printf("%c",x);
+	return 0;
+}
+//For small letters
+#include<stdio.h>
+main()
+{
+	char x='a';
+	while(x<='z')
+	{
+		printf("%c",x);
+		x++;
+	}
+	return 0;
+}
