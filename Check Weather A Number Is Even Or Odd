@@ -1,0 +1,18 @@
+//To print weather a given number is odd or even
+#include<stdio.h>
+main()
+{
+	int x;
+	printf("enter any number");
+	scanf("%d",&x);
+	if(x%2==0)
+	{
+		printf("It is an even number");
+	}
+	else
+	{
+		printf("It is an odd number");
+	}
+	
+	return 0;
+}
