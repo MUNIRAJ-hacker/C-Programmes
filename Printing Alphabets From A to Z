@@ -1,0 +1,33 @@
+//Print Alphabets From A to Z
+#include<stdio.h>
+main()
+{
+	int x;
+	for(x=65;x<=90;x++)
+	printf("%c",x);
+	return 0;
+}
+//Print Alphabets From A to Z by while loop
+#include<stdio.h>
+main()
+{
+	int x=65;
+	while(x<=90)
+	{
+		printf("%c",x);
+		x++;
+	}
+  return 0;
+}
+//Print Alphabets From A to Z in a slightly different way
+#include<stdio.h>
+main()
+{
+	char x='A';
+	while(x<='Z')
+	{
+		printf("%c",x);
+		x++;
+	}
+	return 0;
+}
