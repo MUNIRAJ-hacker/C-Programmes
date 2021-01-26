@@ -1,0 +1,27 @@
+//Swapping 2 variables using 3rd variable
+#include<stdio.h>
+main()
+{
+	int x=10,y=20,swap;
+	printf("Values of x and y before swap are %d %d\n",x,y);
+	swap=x;
+	x=y;
+	y=swap;
+	printf("Values of x and y after swap are %d %d",x,y);
+	return 0;
+}
+//By Taking User Input
+//Swapping 2 variables using 3rd variable
+#include<stdio.h>
+main()
+{
+	int x,y,swap;
+	printf("enter the 2 variables x and y\n");
+	scanf("%d %d",&x,&y);
+	printf("values of x and y before swap are %d %d\n",x,y);
+	swap=x;
+	x=y;
+	y=swap;
+	printf("Values x and y after swap are %d %d",x,y);
+	return 0;
+}
